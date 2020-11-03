@@ -1,0 +1,149 @@
+.parent
+{
+    height: 40px ;
+    border: #000 solid 1px ;
+    background-color:#02adbe ;
+}
+.a
+{
+    font-size: 30px ;
+    margin: 25px ;
+    padding: 6px 6px 6px 6px ;
+    font-weight: bold ;
+    
+}
+p{
+    display: inline ;
+}
+.b
+{
+    float: right ;
+    font-size:  16px ;
+    margin: 5px ;
+    padding: 6px 6px;
+    font-weight: bold ;
+}
+.im
+{
+    background-image: url(2.jpg) ;
+    height: 450px ;
+    background-size: cover ;
+    background-position: center ;
+}
+.parent2
+{
+    display: grid ;
+    grid-template-columns: auto auto auto ;
+    height: 600px ;
+    background-color: white ;
+    text-align: center ;
+}
+.parent2 > div
+{
+    background-color: #fbfbfb ;
+    width: 300px ;
+    height: 440px ;
+    margin: 41px ;
+    padding: 25px;
+    border: 1px solid #969696 ;
+}
+.im2
+{
+    width : 100px ;
+    height: 100px ;
+}
+.p2
+{
+    font-size: 50px ;
+    color: #02adbe ;
+}
+.p3
+{
+    font-size: 20px ;
+    text-align: justify ;
+}
+.parent3
+{
+    height: 550px ;
+    background-color: #d8d8d8 ;
+}
+.child3
+{
+    width: 600px ;
+    line-height: 30px;
+    font-size: 23px ;
+    padding: 0px 0px 0px 100px ;
+    text-align: justify ;
+    display: inline-block ;
+}
+.im3
+{
+    width: 400px ;
+    height: 400px ;
+    float: right ;
+    border-radius: 50% ;
+}
+.parent4
+{
+    height: 550px ;
+    position: relative ;
+}
+.child4
+{
+    position: absolute ;
+    right: 13% ;
+    width: 600px ;
+    line-height: 30px;
+    font-size: 23px ;
+    text-align: justify ;
+    padding: 100px 0px 0px 0px ;
+    display: inline ;
+    
+}
+.im4
+{
+    width: 400px ;
+    height: 400px ;
+    float: left ;
+    border-radius: 50% ;
+}
+.parent5
+{
+    height: 550px ;
+    background-color: #444 ;
+    display: grid ;
+    grid-template-columns: auto auto auto 
+}
+.parent5 > div
+{
+    width:400px ;
+    margin: 15px ;
+    text-align: center ;
+    color: #FFF ;
+}
+.im5
+{
+    width: 50px ;
+    height: 50px ;
+    border-radius: 45% 0% ;
+    padding: 20px 15px 6px 10px;
+}
+label
+{
+    border-bottom: solid #FFF 2px ;
+    padding: 10px 74px 7px 0px ;
+    margin: 5px ;
+    font-size: 25px ;
+    width: 200px ;
+    float: left
+}
+.icon
+{
+    width: 60px ;
+    height: 60px ;
+    border-radius: 50% ;
+}
+.im5:hover
+{
+    transform: scale(1.2,1.2) ;
+}
